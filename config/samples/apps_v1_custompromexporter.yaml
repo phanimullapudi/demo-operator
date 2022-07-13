@@ -1,0 +1,7 @@
+apiVersion: apps.iscale.cc/v1
+kind: CustomPromExporter
+metadata:
+  name: custompromexporter-sample
+spec:
+  image: "anupamgogoi/mock-app"
+  size: 4
